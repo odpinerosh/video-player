@@ -12,17 +12,17 @@
 }
 
 #btn-backwrd {
-    background-image: url('/../assets/images/-10.svg');
+    background-image: url('../assets/images/-10.svg');
 }
 
 #btn-play {
-    background-image: url('/../assets/images/play.svg');
+    background-image: url('../assets/images/play.svg');
 }
 
 #btn-pause {
-    background-image: url('/../assets/images/pause.svg');
+    background-image: url('../assets/images/pause.svg');
 }
 
 #btn-forwrd {
-    background-image: url('/../assets/images/+10.svg');
+    background-image: url('../assets/images/+10.svg');
 }
