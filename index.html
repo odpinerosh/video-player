@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" type="">
+    <title>Video Player</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="player">
+            <video id="vid-player" poster="./assets/images/ult-poster.png" src="https://media.w3.org/2010/05/sintel/trailer.mp4" width="400"></video>
+            <div class="player-wraper">
+                <h2 class="player-title">
+                    Sintel.
+                </h2>
+                <div class="controls">
+                    <button class="button" id="btn-backwrd" aria-label="back 10 sec" title="Retrodecer 10s" hidden></button>
+                    <button class="button" id="btn-play" aria-label="play" title="Reproducir"></button>
+                    <button class="button" id="btn-pause" aria-label="pause" title="Pausar" hidden></button>
+                    <button class="button" id="btn-forwrd" aria-label="forward 10 sec" title="Adelantar 10s" hidden></button>
+                </div>
+                <div class="player-progress">
+                    <input type="range" id="player-range" value="0">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/progr.js"></script>
+</body>
+
+</html>
